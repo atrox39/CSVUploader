@@ -1,0 +1,5 @@
+scripts
+logs
+csv
+.env
+venv

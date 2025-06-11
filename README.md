@@ -1,0 +1,33 @@
+# CSV Uploader - SQL Server
+
+### .env example
+```bash
+DB_NAME=basedatos
+DB_HOST=127.0.0.1
+DB_USER=sa
+DB_PASS=123456
+CSV_PATH=csv
+FILE_PATTERN="Schema.Table\\_[0-9]{4}\\.csv"
+FILE_SPLITTER="_"
+```
+
+### Install venv
+```bash
+python -m venv venv
+```
+
+### Install requirements
+```bash
+python -m pip install -r requirements.txt
+```
+
+### Usage with `--export` flag
+```bash
+python main.py --export true
+```
+
+### Usage without `--export` flag
+
+```bash
+python main.py
+```
