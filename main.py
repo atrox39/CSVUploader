@@ -5,7 +5,6 @@ import os
 import re
 import argparse
 import time
-import sys
 
 start_time = time.time()
 
